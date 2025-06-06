@@ -1,8 +1,8 @@
 from config.conftest import *
 
 @pytest.fixture()
-def btn_java(page: Page):
-    def page_java():
+def btn_java1(page: Page):
+    def page_java1():
         page.goto("https://metanit.com/")
         page.click('//*[@id="menu"]/ul/li[4]/a')
         page.wait_for_url("https://metanit.com/java/")
@@ -86,4 +86,4 @@ def btn_java(page: Page):
         page.wait_for_timeout(1000)
         expect(page).to_have_url("https://metanit.com/")
         page.wait_for_timeout(1000)
-    return page_java
+    return page_java1

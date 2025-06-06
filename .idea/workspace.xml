@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa9deeca-0b41-4ad7-a457-7567fd38d8fb" name="Changes" comment="auto_test_metanit">
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Linux.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/SQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/VK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/WB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/android.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/button_CPP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/button_java.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/button_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/button_sharp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/commons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/display_fon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/donat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/page_find1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/imports_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/enter_page_metanit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Linux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/SQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SQL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/android.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/android.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/button_CPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/button_CPP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/button_java.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/button_java.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/button_sharp.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/button_sharp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/commons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,10 +58,14 @@
   "keyToString": {
     "Python tests.Python tests for test_page.test_C_2plus.executor": "Run",
     "Python tests.Python tests for test_page.test_android.executor": "Run",
+    "Python tests.Python tests for test_page.test_comm.executor": "Run",
     "Python tests.Python tests for test_page.test_full_flow.executor": "Run",
     "Python tests.Python tests for test_page.test_full_flow1.executor": "Run",
     "Python tests.Python tests for test_page.test_full_flow2.executor": "Run",
+    "Python tests.Python tests for test_page.test_java.executor": "Run",
     "Python tests.Python tests for test_page.test_linux.executor": "Run",
+    "Python tests.Python tests for test_page.test_page_met.executor": "Run",
+    "Python tests.Python tests for test_page.test_python.executor": "Run",
     "Python tests.Python tests for test_page.test_sharp.executor": "Run",
     "Python tests.Python tests for test_page.test_sql.executor": "Run",
     "Python tests.Python tests in test_page.py.executor": "Run",
@@ -77,7 +75,7 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_page.test_linux">
+  <component name="RunManager" selected="Python tests.Python tests for test_page.test_comm">
     <configuration name="test_page" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="auto_test_metanit" />
       <option name="ENV_FILES" value="" />
@@ -100,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_page.test_C_2plus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_page.test_comm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_test_metanit" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,11 +109,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_page.test_C_2plus&quot;" />
+      <option name="_new_target" value="&quot;test_page.test_comm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_page.test_full_flow2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_page.test_java" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_test_metanit" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +124,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_page.test_full_flow2&quot;" />
+      <option name="_new_target" value="&quot;test_page.test_java&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -145,7 +143,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_page.test_sharp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_page.test_page_met" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_test_metanit" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +154,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_page.test_sharp&quot;" />
+      <option name="_new_target" value="&quot;test_page.test_page_met&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_page.test_sql" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_page.test_python" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_test_metanit" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,17 +169,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_page.test_sql&quot;" />
+      <option name="_new_target" value="&quot;test_page.test_python&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_page.test_comm" />
+        <item itemvalue="Python tests.Python tests for test_page.test_page_met" />
+        <item itemvalue="Python tests.Python tests for test_page.test_java" />
+        <item itemvalue="Python tests.Python tests for test_page.test_python" />
         <item itemvalue="Python tests.Python tests for test_page.test_linux" />
-        <item itemvalue="Python tests.Python tests for test_page.test_sql" />
-        <item itemvalue="Python tests.Python tests for test_page.test_C_2plus" />
-        <item itemvalue="Python tests.Python tests for test_page.test_full_flow2" />
-        <item itemvalue="Python tests.Python tests for test_page.test_sharp" />
       </list>
     </recent_temporary>
   </component>
